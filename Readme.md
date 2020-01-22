@@ -1,7 +1,7 @@
 ﻿# Личный проект «Седона»
 
 * Студент: [Александр Якушин](https://up.htmlacademy.ru/htmlcss/27/user/1326055).
-* Наставник: [Роман Духницький] (https://htmlacademy.ru/profile/id59884)
+* Наставник: [Никита Рогатнев] (https://htmlacademy.ru/profile/nikita_rogatnev)
 
 
 ---
