@@ -83,6 +83,34 @@
             <h3>Заинтересовались?</h3>
             <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне
             </p>
+            <div>
+                <button type="button" class="sedona-search">Поиск гостиницы в седоне</button>
+                <form class="search form" method="get" action="#">
+                    <div class="search-form-date">
+                        <label for="from">Дата заезда:</label>
+                        <input type="text" name="arrive-date" id="from" placeholder="24 апреля 2018">
+                        <button type="button" class="search-from-calendar">календарь</button>
+                    </div>
+                    <div class=" search-form-date">
+                        <label for="to">Дата выезда:</label>
+                        <input type="text" name="departure-date" id="to" placeholder="4 июля 2017">
+                        <button type="button" class="search-from-calendar">календарь</button>
+                    </div>
+                    <div class="search-form-amount">
+                        <label for="adult-amount">Взрослые</label>
+                        <button type="button" class="min-btn">-</button>
+                        <input type="text" name="adult" value="2" id="adult-amount">
+                        <button type="button" class="plus-btn">+</button>
+                    </div>
+                    <div class="search-form-amount">
+                        <label for="child-amount">Дети</label>
+                        <button type="button" class="min-btn">-</button>
+                        <input type="text" name="child" value="0" id="child-amount">
+                        <button type="button" class="plus-btn">+</button>
+                    </div>
+                    <a href="#" class="found-sedona-holels">Найти</a>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
