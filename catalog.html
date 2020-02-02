@@ -21,6 +21,42 @@ Formatted HTML:
          </nav>
       </header>
       <main>
+      	<section class="form">
+      		<form class="filter" method="get" action="#">
+      			<fieldset>
+      				<legend>инфраструктура</legend>
+      				<ul class="checkbox-form">
+      					<li><input type="checkbox" name="pool" id="filter-pool" checked>
+      						<label for="filter-pool">бассейн</label>
+      					</li>
+      					<li><input type="checkbox" name="parking" id="filter-parking">
+      						<label for="filter-parking">парковка</label>
+      					</li>
+      					<li><input type="checkbox" name="WI-FI" id="filter-wi-fi">
+      						<label for="filter-wi-fi">WI-FI</label>
+      					</li>
+      				</ul>
+      			</fieldset>
+      		</form>
+      		<form class="filter" method="get" action="#">
+      			<fieldset>
+      				<legend>тип жилья</legend>
+      				<ul class="checkbox-form">
+      					<li><input type="checkbox" name="hotel" id="filter-hotel" checked>
+      						<label for="filter-hotel">гостиница</label>
+      					</li>
+      					<li><input type="checkbox" name="motel" id="filter-motel" checked>
+      						<label for="filter-motel">мотель</label>
+      					</li>
+      					<li><input type="checkbox" name="apartment" id="filter-apartment" checked>
+      						<label for="filter-apartment">aпартаменты</label>
+      						
+      					</li>
+      				</ul>
+      			</fieldset>
+      		</form>
+      		
+      	</section>
          <section class="catalog">
             <h1 class="hidden">Гостиницы</h1>
               <article class="hotel">
