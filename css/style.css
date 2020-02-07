@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-image: url("../img/back.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+a {
+	text-decoration: none;}
+
+
+
+.site-navigation{
+font-size: 14px;
+list-style: none;
+background-color: white;
+}
+
+.site-navigation a{
+	color: #000000;
+	font-weight: bold;
+}
+
+.site-navigation a:focus,
+.site-navigation a:hover
+{color: #81b3d2
+
+}
+.site-navigation a:active
+{color: #b2b2b2
+
+}
+
+.discribe h2 {
+	text-align: center;
+	font-size: 21px;
+	color: #000000
+}
+.discribe p {
+	text-align: center;
+	font-size: 14px;
+	color:#333333;
+}
+
+.sedona-search
+{font: inherit;
+color: #ffffff;
+background-color: #766357;
+text-align: center;
+border: none;
+}
+.sedona-search:hover
+{background-color: #604e43
+}
+.sedona-search:active
+{background-color: #503e33;
+color:#908883
+
+}
+
+ .form h3
+{text-align: center;
+ font-size: 30px;
+ line-height: 36px
+
+}
+
+.form p
+{text-align: center;
+ font-size: 14px;
+ line-height: 24px
+}
+
+.search-form input
+{font: inherit;
+ border: none;
+ background-color: #f2f2f2
+}
+	
+.search-form-amount input
+{font: inherit;
+ border: none;
+ background-color: #f2f2f2
+}
+
+.search-form input:focus
+{background-color: #ffffff
+
+}
+.search-form input:hover
+{background-color: #ebebeb
+
+}
+.found-sedona-hotels 
+{font: inherit;
+color: #ffffff;
+background-color:#81b3d2;
+border: none;
+font-size: 21px
+
+}
+
+.found-sedona-hotels:hover
+{background-color:#669ec0;
+
+}
+
+.found-sedona-hotels:active
+{background-color:#5496bd;
+	color: #93b9d2
+
+}
+.hashtag
+{font-size: 21px;
+line-height: 26px;
+font-weight: bold;
+}
+.hashtag a
+{
+color: #000000
+}
+
+.social-list
+{
+list-style: none;
+}
+.footer-logo span
+{
+color: #000000;
+}
+
+
+
+
+
