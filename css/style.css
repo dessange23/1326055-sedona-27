@@ -18,7 +18,14 @@ body {
 a {
 	text-decoration: none;}
 
+img { max-width: 100% }
 
+.catalogy {
+  background-image: none;
+  }
+
+
+/*Навигация*/
 
 .site-navigation{
 font-size: 14px;
@@ -38,8 +45,17 @@ background-color: white;
 }
 .site-navigation a:active
 {color: #b2b2b2
-
 }
+/*для каталога (2стр)*/
+.main a
+{color: #766357;}
+
+
+/*Первая страница*/
+
+
+.hidden
+{display: none;}
 
 .discribe h2 {
 	text-align: center;
@@ -57,7 +73,9 @@ background-color: white;
 color: #ffffff;
 background-color: #766357;
 text-align: center;
-border: none;
+font-size:21px;
+font-weight: bold;
+text-transform: uppercase;
 }
 .sedona-search:hover
 {background-color: #604e43
@@ -84,7 +102,8 @@ color:#908883
 .search-form input
 {font: inherit;
  border: none;
- background-color: #f2f2f2
+ background-color: #f2f2f2;
+ font-weight: bold;
 }
 	
 .search-form-amount input
@@ -103,10 +122,12 @@ color:#908883
 }
 .found-sedona-hotels 
 {font: inherit;
+text-transform: uppercase;
 color: #ffffff;
 background-color:#81b3d2;
 border: none;
-font-size: 21px
+font-size: 21px;
+font-weight: bold;
 
 }
 
@@ -117,18 +138,101 @@ font-size: 21px
 
 .found-sedona-hotels:active
 {background-color:#5496bd;
-	color: #93b9d2
+	color: #93b9d2}
+
+
+/*Вторая страница*/
+
+.housename a
+{font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+ }
+
+ .housename a:hover
+ {color: #81b3d2;
+ 	}
+
+ .housename a:active
+ {color:#c9c9c9 
+
+ }
+
+ .housetype{
+ 	line-height: 21px;
+ 	color: #333333;
+ 	font-size: 14px
+
+ }
+
+ .price {
+ 	line-height: 21px;
+ 	color: #333333;
+ 	font-size: 14px
+
+ }
+
+ .details
+ {background-color: #81b3d2;
+ 	color:white;
+ 	line-height: 21px;
+ 	font-weight: bold;
+
+ }
+
+.details:hover
+{background-color: #669ec0;
 
 }
-.hashtag
+.details:active
+{background-color: #5496bd;
+ color: #93b9d2;
+
+}
+.book
+{background-color: #766357;
+ color: white;
+ line-height: 21px;
+ font-weight: bold;
+}
+
+.book:hover
+{background-color: #604e43;
+}
+
+.book:active
+{background-color: #503e33;
+color: #908883;
+
+}
+.rating
+{
+background-color: #f2f2f2;
+color: #666666}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Футер*/
+
+
+.hashtag a
+
 {font-size: 21px;
 line-height: 26px;
 font-weight: bold;
+color: #000000;
 }
-.hashtag a
-{
-color: #000000
-}
+
 
 .social-list
 {
@@ -138,6 +242,7 @@ list-style: none;
 {
 color: #000000;
 }
+
 
 
 
