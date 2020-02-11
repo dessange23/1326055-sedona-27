@@ -65,6 +65,8 @@ nav .site-navigation
 {display: inline-block;
 	vertical-align: baseline;
 	width: 100%;
+	padding-left: 70px;
+    margin-bottom: 100px;
 
 }
 
