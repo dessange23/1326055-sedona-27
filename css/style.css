@@ -1,15 +1,13 @@
 body {
-	   /*Временно для сетки*/
+  /*Временно для сетки*/
   margin: 0;
   padding: 0;
-
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
   color: #000000;
   text-transform: uppercase;
-
   background-color: #ffffff;
   /*background-image: url("../img/back.jpg");*/
   background-position: top;
@@ -21,309 +19,331 @@ body {
   background-repeat: no-repeat;
   background-position: absolute; */
 }
-a {
-	text-decoration: none;}
 
-.body {width: 1200px;
-	margin: 0 auto;
-	box-shadow: 0 0 20px -5px #6e6e6e;
+a {
+  text-decoration: none;
+}
+img
+{max-width: 100%}
+
+.body {
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px -5px #6e6e6e;
+ ;
+  background-repeat: no-repeat;
 
 }
-
 
 .catalogy {
   background-image: none;
-  }
-  /*сетки*/
-.header
-{min-height: 200px;
-outline: 2px solid red;
+}
+
+
+
+}
+
+
+/*сетки*/
+
+.header {
+    
+    margin-bottom: 30px;
+}
+
+.main-navigation {
+background: transparent;
+margin: 0;
+padding: 0;
 display: flex;
 flex-direction: column;
-align-items: center;
-justify-content: space-between;
-position: relative;
-}
-
-nav .site-navigation
-{display: flex;
-	outline: 2px solid green;
-	width: 1200px;
-	min-height: 56px;
-	align-items: center;
-	justify-content: space-around;
 
 }
 
+.site-navigation {
+margin: 0;
+padding: 0;
+display: flex;
+margin-right: 73px;
+margin-left: 73px;
+margin-bottom: 15px;
+
+}
+.site-navigation li {
+	width: 25%;
+	display: block;
+	padding-top: 20px;
+}
+
+.logo-sedona {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.site-navigation-item-1 {
+	text-align: left;
+
+}
+.site-navigation-item-2{
+	text-align: left;
+
+}
+
+.site-navigation-item-3{
+	text-align: right;
+	padding-left: 90px;
 
 
+}
 
-
-
-
-.site-navigation li
-{display: inline-block;
-	vertical-align: baseline;
-	width: 100%;
-	padding-left: 70px;
-    margin-bottom: 100px;
+.site-navigation-item-4{
+	text-align: right;
 
 }
 
 
 
- 
- .inputi
- {align-items: center;}
 
- 
+
+
+
+
+
+
 
 
 /*Навигация*/
 
-.site-navigation{
-font-size: 14px;
-list-style: none;
-background-color: white;
-
+.site-navigation {
+  font-size: 14px;
+  list-style: none;
+  background-color: white;
 }
 
-.site-navigation a{
-	color: #000000;
-	font-weight: bold;
+.site-navigation a {
+  color: #000000;
+  font-weight: bold;
 }
 
 .site-navigation a:focus,
-.site-navigation a:hover
-{color: #81b3d2
+.site-navigation a:hover {
+  color: #81b3d2
+}
 
+.site-navigation a:active {
+  color: #b2b2b2
 }
-.site-navigation a:active
-{color: #b2b2b2
-}
+
+
 /*для каталога (2стр)*/
-.main a
-{color: #766357;}
 
-
+.main a {
+  color: #766357;
+}
 
 
 /*Первая страница*/
 
+.hidden {
+  display: none;
+}
 
-.hidden
-{display: none;}
+.banner{
+background-image: url(../img/polygon.png);
+}
 
 .discribe h2 {
-	text-align: center;
-	font-size: 21px;
-	color: #000000
+  text-align: center;
+  font-size: 21px;
+  color: #000000
 }
+
 .discribe p {
-	text-align: center;
-	font-size: 14px;
-	color:#333333;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
 }
 
-.sedona-search
-{font: inherit;
-color: #ffffff;
-background-color: #766357;
-text-align: center;
-font-size:21px;
-font-weight: bold;
-text-transform: uppercase;
-}
-.sedona-search:hover
-{background-color: #604e43
-}
-.sedona-search:active
-{background-color: #503e33;
-color:#908883
 
+
+.sedona-search {
+  font: inherit;
+  color: #ffffff;
+  background-color: #766357;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
- .form h3
-{text-align: center;
- font-size: 30px;
- line-height: 36px
-
+.sedona-search:hover {
+  background-color: #604e43
 }
 
-.form p
-{text-align: center;
- font-size: 14px;
- line-height: 24px
+.sedona-search:active {
+  background-color: #503e33;
+  color: #908883
 }
 
-.search-form input
-{font: inherit;
- border: none;
- background-color: #f2f2f2;
- font-weight: bold;
-}
-	
-.search-form-amount input
-{font: inherit;
- border: none;
- background-color: #f2f2f2
+.form h3 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px
 }
 
-.search-form input:focus
-{background-color: #ffffff
-
-}
-.search-form input:hover
-{background-color: #ebebeb
-
-}
-.found-sedona-hotels 
-{font: inherit;
-text-transform: uppercase;
-color: #ffffff;
-background-color:#81b3d2;
-border: none;
-font-size: 21px;
-font-weight: bold;
-
+.form p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px
 }
 
-.found-sedona-hotels:hover
-{background-color:#669ec0;
-
+.search-form input {
+  font: inherit;
+  border: none;
+  background-color: #f2f2f2;
+  font-weight: bold;
 }
 
-.found-sedona-hotels:active
-{background-color:#5496bd;
-	color: #93b9d2}
+.search-form-amount input {
+  font: inherit;
+  border: none;
+  background-color: #f2f2f2
+}
+
+.search-form input:focus {
+  background-color: #ffffff
+}
+
+.search-form input:hover {
+  background-color: #ebebeb
+}
+
+.found-sedona-hotels {
+  font: inherit;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.found-sedona-hotels:hover {
+  background-color: #669ec0;
+}
+
+.found-sedona-hotels:active {
+  background-color: #5496bd;
+  color: #93b9d2
+}
 
 
 /*Вторая страница*/
-fieldset legend
-{color: #ffffff;
-font-size: 16px;
-line-height: 21px;
-text-transform: uppercase;
-font-weight: bold;
-background-color: black; /*(временно)*/
 
-}
-.filter fieldset
-{border: none;}
-
-li label
-{color: #ffffff;
-line-height: 21px;
-background-color: black; /*(временно)*/
-
-
-}
-.checkbox-form
-{list-style: none;
+fieldset legend {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: black;
+  /*(временно)*/
 }
 
-.housename a
-{font-size: 21px;
-	line-height: 26px;
-	font-weight: bold;
-	color: #000000;
- }
-
- .housename a:hover
- {color: #81b3d2;
- 	}
-
- .housename a:active
- {color:#c9c9c9 
-
- }
-
- .housetype{
- 	line-height: 21px;
- 	color: #333333;
- 	font-size: 14px
-
- }
-
- .price {
- 	line-height: 21px;
- 	color: #333333;
- 	font-size: 14px
-
- }
-
- .details
- {background-color: #81b3d2;
- 	color:white;
- 	line-height: 21px;
- 	font-weight: bold;
-
- }
-
-.details:hover
-{background-color: #669ec0;
-
-}
-.details:active
-{background-color: #5496bd;
- color: #93b9d2;
-
-}
-.book
-{background-color: #766357;
- color: white;
- line-height: 21px;
- font-weight: bold;
+.filter fieldset {
+  border: none;
 }
 
-.book:hover
-{background-color: #604e43;
+li label {
+  color: #ffffff;
+  line-height: 21px;
+  background-color: black;
+  /*(временно)*/
 }
 
-.book:active
-{background-color: #503e33;
-color: #908883;
-
+.checkbox-form {
+  list-style: none;
 }
-.rating
-{
-background-color: #f2f2f2;
-color: #666666}
 
+.housename a {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
 
+.housename a:hover {
+  color: #81b3d2;
+}
 
+.housename a:active {
+  color: #c9c9c9
+}
 
+.housetype {
+  line-height: 21px;
+  color: #333333;
+  font-size: 14px
+}
 
+.price {
+  line-height: 21px;
+  color: #333333;
+  font-size: 14px
+}
 
+.details {
+  background-color: #81b3d2;
+  color: white;
+  line-height: 21px;
+  font-weight: bold;
+}
 
+.details:hover {
+  background-color: #669ec0;
+}
 
+.details:active {
+  background-color: #5496bd;
+  color: #93b9d2;
+}
 
+.book {
+  background-color: #766357;
+  color: white;
+  line-height: 21px;
+  font-weight: bold;
+}
 
+.book:hover {
+  background-color: #604e43;
+}
+
+.book:active {
+  background-color: #503e33;
+  color: #908883;
+}
+
+.rating {
+  background-color: #f2f2f2;
+  color: #666666
+}
 
 
 /*Футер*/
 
-
-.hashtag a
-
-{font-size: 21px;
-line-height: 26px;
-font-weight: bold;
-color: #000000;
+.hashtag a {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
 }
 
-
-.social-list
-{
-list-style: none;
-}
-.footer-logo span
-{
-color: #000000;
+.social-list {
+  list-style: none;
 }
 
-
-
-
-
-
+.footer-logo span {
+  color: #000000;
+}
