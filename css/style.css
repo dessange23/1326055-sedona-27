@@ -30,7 +30,6 @@ img
   width: 1200px;
   margin: 0 auto;
   box-shadow: 0 0 20px -5px #6e6e6e;
- ;
   background-repeat: no-repeat;
 
 }
@@ -42,9 +41,13 @@ img
 
 
 }
+/*временно для для фона*/
+.filter-range{
+	background-color: black;
+}
 
 
-/*сетки*/
+/*СЕТКИ 1 СТРАНИЦА*/
 
 .header {
     
@@ -74,33 +77,186 @@ margin-bottom: 15px;
 	display: block;
 	padding-top: 20px;
 }
-
+/*
 .logo-sedona {
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
 }
+*/
 
-.site-navigation-item-1 {
-	text-align: left;
-
-}
-.site-navigation-item-2{
-	text-align: left;
-
+.main-navigation img {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
 }
 
-.site-navigation-item-3{
-	text-align: right;
-	padding-left: 90px;
+
+
+
+
+
+
+
+
+.banner{
+	display: block;
+
+	
+}
+.advantages 
+{min-height: 260px;
+	margin:0;
+	padding: 0;
+	outline: 2px solid red;
+	display: flex;
+	margin-top: 56px;
+
+}
+
+.advantages-description
+{width: 400px;
+outline: 2px solid yellow;
+}
+
+
+
+
+
+.reasons{
+min-height: 260px;
+margin: 0;
+padding: 0;
+outline: 2px solid blue;
+display: flex;
+}
+
+.reasons-description{
+text-align: center;
+width: 400px;
+}
+ 
+.advantages-blue{
+margin: 0;
+}
+.advantages-description{
+	text-align: center;
+	padding-top: 45px;
+}
+.advantages-gray{
+	margin:0;
+
+}
+.form{
+	min-height: 769px;
+	outline: 2px solid green;
+	margin-top: 0;
+}
+.search-form{
+	/*background-image: url("../img/map.jpg");
+	width: 1200px;
+	height: 473px;*/
+}
+
+
+
+
+
+/*СЕТКИ ВТОРАЯ СТРАНИЦА*/
+
+.form-container{
+	display: flex;
+	justify-content: space-around;
+	min-height: 219px;
+	outline: 2px solid;
+	margin: 0;
+    padding: 0;
+
+
+}
+.filter{
+outline: 2px solid
+}
+.filter-range{
+	outline: 5px solid red;
+}
+.sorting{
+display: flex;
+min-height: 87px;
+outline: 2px solid green;
+align-items: baseline;
+
+}
+.sorting h2 {
+margin-left: 73px;
+
+}
+.sorting p {
+margin-left: 52px;
+}
+.type
+{display: flex;
+width: 400px;
+justify-content: space-between;
+}
+
+
+
+
+.hotel{
+display: flex;
+min-height: 152px;
+outline: 2px solid;
+
+}
+.maininfo{
+display: flex;
+width: 260px;
+flex-wrap: wrap;
+outline: 2px solid red;
+min-height: 92px;
+}
+
+.detailstype{
+outline: 2px solid blue;
+width: 112px;
+float: left;
 
 
 }
 
-.site-navigation-item-4{
-	text-align: right;
+.bookprice{
+outline: 2px solid;
+width: 112px;
+}
+
+
+
+/*СЕТКИ ФУТЕРА*/
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 122px;
+	outline: 2px solid black;
+}
+.hashtag{
+	outline: 2px solid red
 
 }
+
+.socials-ul{
+	outline: 2px solid blue
+
+}
+.footer-logo{
+	outline: 2px solid green
+
+}
+
+
+
 
 
 
@@ -114,6 +270,27 @@ transform: translateX(-50%);
 
 
 /*Навигация*/
+
+
+.main-navigayion li:nth-child(1){
+	text-align: left;
+}
+
+
+
+.main-navigation li:nth-child(2){
+	text-align: left;
+}
+
+.main-navigation li:nth-child(3){
+	text-align: right;
+	padding-left: 90px;
+}
+
+.main-navigation li:nth-child(4){
+	text-align: right;
+}
+
 
 .site-navigation {
   font-size: 14px;
@@ -137,10 +314,13 @@ transform: translateX(-50%);
 
 
 /*для каталога (2стр)*/
-
+/*
 .main a {
   color: #766357;
 }
+*/
+
+
 
 
 /*Первая страница*/
@@ -149,9 +329,10 @@ transform: translateX(-50%);
   display: none;
 }
 
-.banner{
+
+/*.banner{
 background-image: url(../img/polygon.png);
-}
+}*/
 
 .discribe h2 {
   text-align: center;
@@ -165,6 +346,45 @@ background-image: url(../img/polygon.png);
   color: #333333;
 }
 
+.advantages-blue .advantages-description
+{background-color: #81b3d2;
+ color:white;}
+
+.advantages-description h4{
+ font-size: 21px;
+ font-weight: bold;
+ line-height: 21px;
+
+}
+
+.advantages-description span{
+ font-size: 14px;
+ line-height: 21px;
+}
+
+.advantages-description p{
+ font-size: 14px;
+ line-height: 21px;
+
+}
+
+
+
+
+
+.reasons-description h4 {
+ font-size: 21px;
+ font-weight: bold;
+ line-height: 21px;
+
+}
+
+.reasons-description p {
+ font-size: 14px;
+ font-weight:400;
+ line-height:21px;
+
+}
 
 
 .sedona-search {
@@ -262,6 +482,26 @@ li label {
   /*(временно)*/
 }
 
+.sorting h2{
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.sorting p{
+ font-size: 12px;
+ line-height: 18px;
+}
+
+.sorting button{
+ font-size: 12px;
+ line-height: 18px;
+ text-transform: none;
+}
+
+
+
+
 .checkbox-form {
   list-style: none;
 }
@@ -347,3 +587,147 @@ li label {
 .footer-logo span {
   color: #000000;
 }
+
+
+
+
+
+
+/*ФИЛЬТР НА 2 СТРАНИЦЕ*/
+
+.filter-range{
+
+  font-weight: 400;
+  font-family: "PT Sans", Arial, sans-serif;
+
+  background: #2a3e45;
+  width: 330px;
+  color: #ffffff;
+  text-transform: uppercase; }
+.filter-range-title {
+  margin-bottom: 9px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.price-controls {
+  position: relative;
+  
+  height: 36px;
+  margin-bottom: 20px;
+  
+  font-size: 0;
+
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 2px;
+  height: 22px;
+
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+
+  cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+  width: 90px;
+  padding-left: 65px;
+}
+
+.price-controls input {
+  width: 50px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+}
+
+.range-controls {
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.btn-transparent {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-transparent:hover {
+  color: #000000;
+
+  background: #ffffff;
+}
+
