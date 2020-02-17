@@ -26,7 +26,7 @@ a {
 img
 {max-width: 100%}
 
-.body {
+.container {
   width: 1200px;
   margin: 0 auto;
   box-shadow: 0 0 20px -5px #6e6e6e;
@@ -37,8 +37,7 @@ img
 .catalogy {
   background-image: none;
 }
-
-
+р
 
 }
 /*временно для для фона*/
@@ -51,7 +50,7 @@ img
 
 .header {
     
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .main-navigation {
@@ -91,8 +90,12 @@ left: 50%;
 transform: translateX(-50%);
 }
 
-
-
+.sorting-items{
+	display: flex;
+}
+.up-down{
+	display: flex;
+}
 
 
 
@@ -199,8 +202,28 @@ margin-left: 52px;
 width: 400px;
 justify-content: space-between;
 }
+.amara-img{
+    padding-left: 72px;
+    padding-top: 30px;
+    width: 135px;
+
+}
+.desert-img{
+ padding-left: 72px;
+    padding-top: 30px;
+    width: 135px;
 
 
+}
+
+.villas-img{
+    padding-left: 72px;
+    padding-top: 30px;
+    width: 135px;
+
+
+
+}
 
 
 .hotel{
@@ -208,19 +231,35 @@ display: flex;
 min-height: 152px;
 outline: 2px solid;
 
+
 }
+
+.housename{
+padding: 0;
+
+}
+
+
+
+
 .maininfo{
 display: flex;
-width: 260px;
+width: 781px;
 flex-wrap: wrap;
 outline: 2px solid red;
 min-height: 92px;
 }
 
+.hotel-container{
+	display: flex;
+	outline: 2px solid pink;
+	flex-wrap: wrap;
+	width: 259px;
+}
+
 .detailstype{
 outline: 2px solid blue;
 width: 112px;
-float: left;
 
 
 }
@@ -228,6 +267,13 @@ float: left;
 .bookprice{
 outline: 2px solid;
 width: 112px;
+}
+
+.rates{
+	outline: 2px solid;
+	margin-left: auto;
+    padding-right: 73px;
+
 }
 
 
@@ -242,17 +288,30 @@ width: 112px;
 	outline: 2px solid black;
 }
 .hashtag{
-	outline: 2px solid red
+	outline: 2px solid red;
+	    width: 227px;
 
 }
 
 .socials-ul{
-	outline: 2px solid blue
+	outline: 2px solid blue;
+	background-color: red;
+}
+.social-list{
+	display: flex;
+
 
 }
 .footer-logo{
 	outline: 2px solid green
 
+}
+.website{
+	display: flex;
+	align-items: center;
+}
+.footer-logo span{
+	padding-right: 10px;
 }
 
 
@@ -333,17 +392,23 @@ width: 112px;
 /*.banner{
 background-image: url(../img/polygon.png);
 }*/
+.banner {
+background-repeat: no-repeat;
+}
 
 .discribe h2 {
   text-align: center;
   font-size: 21px;
-  color: #000000
+  color: #000000;
+  width: 447px;
+  margin-left: 385px;
 }
 
 .discribe p {
   text-align: center;
   font-size: 14px;
   color: #333333;
+  margin-left: 20px;
 }
 
 .advantages-blue .advantages-description
@@ -354,6 +419,9 @@ background-image: url(../img/polygon.png);
  font-size: 21px;
  font-weight: bold;
  line-height: 21px;
+ width: 130px;
+ margin-left: 135px;
+ margin-top: 0px;
 
 }
 
@@ -365,8 +433,19 @@ background-image: url(../img/polygon.png);
 .advantages-description p{
  font-size: 14px;
  line-height: 21px;
+     margin-top: 20px;
+    width: 290px;
+    padding-left: 65px;
 
 }
+.advantages-image{
+display: flex;
+}
+
+.advantages-gray .advantages-description{
+background-color: #eeeeee;
+}
+
 
 
 
@@ -581,13 +660,16 @@ li label {
 }
 
 .social-list {
+  
   list-style: none;
 }
 
 .footer-logo span {
   color: #000000;
 }
-
+ .social-link svg {
+ 	fill:red;
+ }
 
 
 

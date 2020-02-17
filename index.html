@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    <div class="body">
-    <header class="header">
-        <nav class="main-navigation">
-             <a href="index.html">
-            <img src="img/logo.png" width="140" height="71" alt="Логотип Седона">
-        </a>
+    <div class="container">
+        <header class="header">
+            <nav class="main-navigation">
+               <a href="index.html">
+                <img src="img/logo.png" width="140" height="71" alt="Логотип Седона">
+            </a>
             <ul class="site-navigation">
                 <li><a href="#">Информация</a></li>
                 <li><a href="#">Фото и видео</a></li>
@@ -27,8 +27,8 @@
     <main class="main">
         <h1 class="hidden">Седона</h1>
         <div class="banner">
-            <img src="img/index-background-photo3.jpg" width="1200" height="510" alt="banner-photo">
-      
+            <img src="img/banner.jpg" width="1200" height="510" alt="banner-photo">
+            
         </div>
         <section class="discribe">
             <h2>Седона-небольшой городок в аризоне, заслуживающий большего</h2>
@@ -70,18 +70,18 @@
             </div>
         </section>
         <section class="advantages advantages-gray">
-            <div class="advantages-description no-background">
+            <div class="advantages-description">
                 <h4>Небольшая площадь</h4>
                 <span>- №3 -</span>
                 <p>все достопримечательности находятся очень близко</p>
             </div>
-            <div class="advantages-description no-background">
+            <div class="advantages-description">
                 <h4>Красивая дорога</h4>
                 <span>- №4 -</span>
                 <p>Ехать в седону из лас-вегаса совсем не скучно!
                 </p>
             </div>
-            <div class="advantages-description no-background">
+            <div class="advantages-description">
                 <h4>Мало туристов</h4>
                 <span>- №5 -</span>
                 <p>Большинство едет в гранд каньон и толпится там</p>
@@ -92,53 +92,53 @@
             <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в седоне
             </p>
             <a href="#" class="sedona-search">Поиск гостиицы в седоне</a>
-          
-                <form class="search form" method="get" action="#">
-                    <div class="search-form">
-                        <label for="from">Дата заезда:</label>
-                        <input type="text" name="arrive-date" id="from" placeholder="24 апреля 2018">
-                        <button type="button" class="search-from-calendar">календарь</button>
-                    </div>
-                    <div class="search-form">
-                        <label for="to">Дата выезда:</label>
-                        <input type="text" name="departure-date" id="to" placeholder="4 июля 2017">
-                        <button type="button" class="search-from-calendar">календарь</button>
-                    </div>
-                    <div class="search-form-amount">
-                        <label for="adult-amount">Взрослые</label>
-                        <button type="button" class="min-btn">-</button>
-                        <input type="text" name="adult" value="2" id="adult-amount">
-                        <button type="button" class="plus-btn">+</button>
-                    </div>
-                    <div class="search-form-amount">
-                        <label for="child-amount">Дети</label>
-                        <button type="button" class="min-btn">-</button>
-                        <input type="text" name="child" value="0" id="child-amount">
-                        <button type="button" class="plus-btn">+</button>
-                        <button type="submit" class="found-sedona-hotels">Найти</button>
-                     </div>
-                </form>
-         
+            
+            <form class="search form" method="get" action="#">
+                <div class="search-form">
+                    <label for="from">Дата заезда:</label>
+                    <input type="text" name="arrive-date" id="from" placeholder="24 апреля 2018">
+                    <button type="button" class="search-from-calendar">календарь</button>
+                </div>
+                <div class="search-form">
+                    <label for="to">Дата выезда:</label>
+                    <input type="text" name="departure-date" id="to" placeholder="4 июля 2017">
+                    <button type="button" class="search-from-calendar">календарь</button>
+                </div>
+                <div class="search-form-amount">
+                    <label for="adult-amount">Взрослые</label>
+                    <button type="button" class="min-btn">-</button>
+                    <input type="text" name="adult" value="2" id="adult-amount">
+                    <button type="button" class="plus-btn">+</button>
+                </div>
+                <div class="search-form-amount">
+                    <label for="child-amount">Дети</label>
+                    <button type="button" class="min-btn">-</button>
+                    <input type="text" name="child" value="0" id="child-amount">
+                    <button type="button" class="plus-btn">+</button>
+                    <button type="submit" class="found-sedona-hotels">Найти</button>
+                </div>
+            </form>
+            
         </section>
     </main>
     <footer class="footer">
-        <div class="hashtag">
-            <a href="#">#VISITSEDONA</a>
-            <a href="tel:+74956660266">ТЕЛ:+7(495)666-02-66</a>
-        </div>
+       <div class="hashtag">
+                <a href="#">#VISITSEDONA</a>
+                <a href="tel:+74956660266">ТЕЛ:+7(495)666-02-66</a>
+            </div>
         <div class="socials-ul">
             <ul class="social-list">
-                <li><a href="#"><img src="svg/twitter.svg" width="46" height="48" alt="твиттер"></a></li>
+                <li><a class="social-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><path  d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"/></svg></a></li>
                 <li><a href="#"><img src="svg/fb-icon.svg"  width="46" height="48" alt="фейсбук"  ></a></li>
                 <li><a href="#"><img src="svg/youtube.svg" width="46" height="48" alt="ютуб"></a></li>
             </ul>
         </div>
-        <div class="footer-logo">
-            <a href="https://htmlacademy.ru/intensive/htmlcss">
-                <span>WEBSITE by</span>
-                <img src="svg/logo-htmlacademy.svg" width="115" height="41" alt="иконка академии">
-            </a>
-        </div>
+      <div class="footer-logo">
+                <a class="website" href="https://htmlacademy.ru/intensive/htmlcss">
+                    <span>WEBSITE by</span>
+                    <img src="svg/logo-htmlacademy.svg" width="115" height="41" alt="иконка академии">
+                </a>
+            </div>
 
     </footer>
 </div>
