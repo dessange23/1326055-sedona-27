@@ -178,11 +178,33 @@ margin: 0;
 
 }
 .filter{
-outline: 2px solid
+outline: 2px solid;
+display:flex;
 }
 .filter-range{
 	outline: 5px solid red;
 }
+
+.infrastructure{
+width: 241px;
+outline: 2px solid red
+}
+
+
+.type-house{
+width: 241px;
+outline: 2px solid gray
+}
+
+.scroll{
+width: 528px;
+outline: 2px solid green
+}
+
+
+
+
+
 .sorting{
 display: flex;
 min-height: 87px;
@@ -202,28 +224,13 @@ margin-left: 52px;
 width: 400px;
 justify-content: space-between;
 }
-.amara-img{
+.hotel-img{
     padding-left: 72px;
     padding-top: 30px;
     width: 135px;
 
 }
-.desert-img{
- padding-left: 72px;
-    padding-top: 30px;
-    width: 135px;
 
-
-}
-
-.villas-img{
-    padding-left: 72px;
-    padding-top: 30px;
-    width: 135px;
-
-
-
-}
 
 
 .hotel{
@@ -540,7 +547,7 @@ background-color: #eeeeee;
 
 /*Вторая страница*/
 
-fieldset legend {
+.infrastructure legend {
   color: #ffffff;
   font-size: 16px;
   line-height: 21px;
@@ -554,7 +561,8 @@ fieldset legend {
   border: none;
 }
 
-li label {
+
+.input label {
   color: #ffffff;
   line-height: 21px;
   background-color: black;
@@ -685,7 +693,10 @@ li label {
   background: #2a3e45;
   width: 330px;
   color: #ffffff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+      margin-left: 200px;
+    margin-top: 32px;
+   }
 .filter-range-title {
   margin-bottom: 9px;
 

@@ -1,5 +1,4 @@
- 
-Formatted HTML:
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -14,7 +13,7 @@ Formatted HTML:
 <body>  <div class="container">
 	<header class="header">
 		<nav class="main-navigation">
-			<a>
+			<a href="index.html">
 				<img src="img/logo.png" width="140" height="71" alt="Логотип Седона">
 			</a>
 			<ul class="site-navigation">
@@ -30,23 +29,21 @@ Formatted HTML:
 	<main>
 		<section class="form-container">
 			<form class="filter" method="get" action="#">
-				<fieldset>
+				<fieldset class="infrastructure">
 					<legend>инфраструктура</legend>
 					<ul class="checkbox-form">
-						<li><input type="checkbox" name="pool" id="filter-pool" checked>
+						<li class="input"><input type="checkbox" name="pool" id="filter-pool" checked>
 							<label for="filter-pool">бассейн</label>
 						</li>
-						<li><input type="checkbox" name="parking" id="filter-parking">
+						<li class="input"><input type="checkbox" name="parking" id="filter-parking">
 							<label for="filter-parking">парковка</label>
 						</li>
-						<li><input type="checkbox" name="WI-FI" id="filter-wi-fi">
+						<li class="input"><input type="checkbox" name="WI-FI" id="filter-wi-fi">
 							<label for="filter-wi-fi">WI-FI</label>
 						</li>
 					</ul>
 				</fieldset>
-			</form>
-			<form class="filter" method="get" action="#">
-				<fieldset>
+				<fieldset class="type-house">
 					<legend>тип жилья</legend>
 					<ul class="checkbox-form">
 						<li><input type="checkbox" name="hotel" id="filter-hotel" checked>
@@ -61,26 +58,31 @@ Formatted HTML:
 						</li>
 					</ul>
 				</fieldset>
-			</form>
 
 
-			<div class="filter-range">
-				<div class="filter-range-title">Стоимость в сутки (р):</div>
-				<div class="price-controls">
-					<label class="min-price">от <input type="number" name="min-price" value="0"></label>
-					<label class="max-price">до <input type="number" name="max-price" value="3000"></label>
-				</div>
-				<div class="range-controls">
-					<div class="scale">
-						<div class="bar"></div>
+				<fieldset class="scroll">
+					<div class="filter-range">
+						<div class="filter-range-title">Стоимость в сутки (р):</div>
+						<div class="price-controls">
+							<label class="min-price">от <input type="number" name="min-price" value="0"></label>
+							<label class="max-price">до <input type="number" name="max-price" value="3000"></label>
+						</div>
+						<div class="range-controls">
+							<div class="scale">
+								<div class="bar"></div>
+							</div>
+							<div class="range-toggle range-toggle-min"></div>
+							<div class="range-toggle range-toggle-max"></div>
+						</div>
+						<button class="btn-transparent" type="submit">Показать</button>
 					</div>
-					<div class="range-toggle range-toggle-min"></div>
-					<div class="range-toggle range-toggle-max"></div>
-				</div>
-				<button class="btn-transparent" type="submit">Показать</button>
-			</div>
+				</fieldset>
+			</form>
 		</section>
-		<div class="sorting">
+		
+
+
+		<section class="sorting">
 			<h2>Найдено:3</h2>
 			<p>сортировка:</p>
 			<ul class="sorting-items">
@@ -92,7 +94,7 @@ Formatted HTML:
 				<li><a href="#">вверх</a></li>
 				<li><a href="#">вниз</a></li>
 			</ul>
-		</div>
+		</section>
 
 
 
@@ -102,7 +104,7 @@ Formatted HTML:
 		<section class="catalog">
 			<h1 class="hidden">Гостиницы</h1>
 			<article class="hotel">
-				<div class="amara-img"><img src="img/amara.jpg" width="135" height="90" alt="amara"></div>
+				<div class="hotel-img"><img src="img/amara.jpg" width="135" height="90" alt="amara"></div>
 				<div class="maininfo"> 
 					<div class="hotel-container">
 						<h2 class="housename"><a href="#">AMARA RESORT & SPA</a></h2>
@@ -127,7 +129,7 @@ Formatted HTML:
 
 
 				<article class="hotel">
-					<div class="desert-img"><img src="img/desert.jpg" width="135" height="90" alt="Desert quail"></div>
+					<div class="hotel-img"><img src="img/desert.jpg" width="135" height="90" alt="Desert quail"></div>
 					<div class="maininfo">
 						<div class="hotel-container"> 
 							<h2 class="housename"><a href="#">DESERT QUAIL INN</a></h2>
@@ -153,7 +155,7 @@ Formatted HTML:
 
 
 				<article class="hotel">
-					<div class="villas-img"><img src="img/villas.jpg" width="135" height="90" alt="Villas"></div>
+					<div class="hotel-img"><img src="img/villas.jpg" width="135" height="90" alt="Villas"></div>
 					<div class="maininfo">
 						<div class="hotel-container">  
 							<h2 class="housename"> <a href="#">VILLAS AT POCO DIABLO</a></h2>
