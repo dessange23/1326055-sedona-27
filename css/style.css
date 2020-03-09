@@ -33,6 +33,8 @@ body {
   background-position: absolute; */
 }
 
+
+
 .hidden:not(:active) {
   display: none;
 }
@@ -45,6 +47,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
 
 .container {
   width: 1200px;
@@ -157,7 +161,6 @@ transform: translateX(-50%);
   -ms-flex-pack: end;
   justify-content: flex-end;
   width: 523px;
-  outline: 2px solid;
 }
 
 .for-type a,
@@ -188,25 +191,23 @@ transform: translateX(-50%);
 }
 
 .advantages {
-  min-height: 258px;
+  min-height: 256px;
   margin: 0;
   padding: 0;
-  outline: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .advantages-description {
   width: 400px;
-  outline: 2px solid yellow;
 }
 
 .reasons {
   min-height: 260px;
   margin: 0;
   padding: 0;
-  outline: 2px solid blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,7 +266,6 @@ transform: translateX(-50%);
 }
 
 .form {
-  outline: 2px solid green;
   margin-top: 0;
 }
 
@@ -273,7 +273,7 @@ transform: translateX(-50%);
   /*background-image: url("../img/map.jpg");
   width: 1200px;
   height: 473px;*/
-  padding-bottom: 38px;
+  padding-bottom: 37px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,11 +290,12 @@ transform: translateX(-50%);
   display: -ms-flexbox;
   display: flex;
   min-height: 219px;
-  outline: 2px solid;
   margin: 0;
   padding: 0;
   background-color: #c9c9c9;
   background: url(../img/filter-background.jpg);
+  background-position-x: -1px;
+  background-position-y: -55px;
 }
 
 .infrastructure legend {
@@ -366,31 +367,27 @@ transform: translateX(-50%);
 }
 
 .filter {
-  outline: 2px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: 72px;
   margin-right: 72px;
+  width: 1056px;
 }
 
 .filter-range {
-  outline: 5px solid red;
   width: 307px;
 }
 
 .infrastructure {
-  outline: 2px solid red;
   width: 241px;
 }
 
 .type-house {
-  outline: 2px solid gray;
   width: 288px;
 }
 
 .scroll {
-  outline: 2px solid green;
   width: 328px;
 }
 
@@ -399,7 +396,6 @@ transform: translateX(-50%);
   display: -ms-flexbox;
   display: flex;
   min-height: 85px;
-  outline: 2px solid green;
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
@@ -433,7 +429,6 @@ transform: translateX(-50%);
   display: -ms-flexbox;
   display: flex;
   min-height: 151px;
-  outline: 2px solid;
 }
 
 .housename {
@@ -449,7 +444,6 @@ transform: translateX(-50%);
   width: 781px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  outline: 2px solid red;
   min-height: 92px;
 }
 
@@ -457,7 +451,6 @@ transform: translateX(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  outline: 2px solid pink;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 260px;
@@ -465,19 +458,16 @@ transform: translateX(-50%);
 }
 
 .detailstype {
-  outline: 2px solid blue;
   width: 111px;
   min-height: 88px;
 }
 
 .bookprice {
-  outline: 2px solid;
   width: 144px;
   margin-left: 4px;
 }
 
 .rates-4-stars {
-  outline: 2px solid;
   margin-left: auto;
   width: 89px;
   height: 17px;
@@ -489,7 +479,6 @@ transform: translateX(-50%);
 }
 
 .rates-3-stars {
-  outline: 2px solid;
   margin-left: auto;
   width: 65px;
   height: 17px;
@@ -500,7 +489,6 @@ transform: translateX(-50%);
 }
 
 .rates-2-stars {
-  outline: 2px solid;
   margin-left: auto;
   width: 40px;
   height: 17px;
@@ -521,13 +509,11 @@ transform: translateX(-50%);
   justify-content: space-around;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
   min-height: 122px;
-  outline: 2px solid black;
+  padding-top: 31px;
 }
 
 .hashtag {
-  outline: 2px solid red;
   width: 400px;
   padding-bottom: 6px;
 }
@@ -537,12 +523,12 @@ transform: translateX(-50%);
   display: -ms-flexbox;
   display: flex;
   width: 153px;
-  outline: 2px solid;
   padding: 0;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding-bottom: 4px;
+  flex-wrap: wrap;
 }
 
 .social-list-container {
@@ -550,7 +536,6 @@ transform: translateX(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  outline: 2px solid;
   padding: 0;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -558,11 +543,12 @@ transform: translateX(-50%);
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-top: -9px;
 }
 
 .footer-logo {
-  outline: 2px solid green;
   width: 400px;
+  margin-top:9px;
 }
 
 .website {
@@ -572,7 +558,6 @@ transform: translateX(-50%);
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  outline: 2px solid;
   padding-left: 102px;
   width: 400px;
   padding-left: 102px;
@@ -595,6 +580,10 @@ transform: translateX(-50%);
 .site-navigation a {
   color: #000000;
   font-weight: bold;
+}
+
+.active a {
+color: #766357;
 }
 
 .site-navigation a:focus,
@@ -677,6 +666,8 @@ background-image: url(../img/polygon.png);
 .advantages-description span {
   font-size: 14px;
   line-height: 21px;
+  padding-top: 5px;
+  display: block;
 }
 
 .advantages-description .num2 {
@@ -684,7 +675,7 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   width: 361px;
   padding-left: 40px;
-  margin-top: 19px;
+  margin-top: 21px;
 }
 
 .advantages-description .num1 {
@@ -701,7 +692,7 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   width: 325px;
   padding-left: 74px;
-  margin-top: 16px;
+  margin-top: 22px;
 }
 
 .advantages-description .num4 {
@@ -709,7 +700,7 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   width: 338px;
   padding-left: 61px;
-  margin-top: 18px;
+  margin-top: 22px;
 }
 
 .advantages-description .num5 {
@@ -717,7 +708,7 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   width: 252px;
   margin-left: 74px;
-  padding-top: 5px;
+  padding-top: 9px;
 }
 
 .advantages-image {
@@ -752,7 +743,7 @@ background-image: url(../img/polygon.png);
   font-weight: 400;
   line-height: 21px;
   margin: 0;
-  padding-top: 26px;
+  padding-top: 28px;
   padding-left: 50px;
   width: 346px;
 }
@@ -762,7 +753,7 @@ background-image: url(../img/polygon.png);
   font-weight: 400;
   line-height: 21px;
   margin: 0;
-  padding-top: 26px;
+  padding-top: 28px;
   padding-left: 56px;
   width: 341px;
 }
@@ -780,6 +771,8 @@ background-image: url(../img/polygon.png);
   padding: 31px 139px;
   cursor: pointer;
   outline: none;
+  padding-top: 33px;
+  padding-bottom: 30px;
 }
 
 .big-button-container {
@@ -795,7 +788,6 @@ background-image: url(../img/polygon.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  outline: 2px solid yellow;
   width: 100%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -808,7 +800,6 @@ background-image: url(../img/polygon.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  outline: 2px solid;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -821,10 +812,15 @@ background-image: url(../img/polygon.png);
   padding-top: 59px;
 }
 
-.date {
+.date-1 {
   line-height: 26px;
   font-weight: bold;
-  margin-right: 26px;
+  margin-right: 23px;
+}
+.date-2 {
+  line-height: 26px;
+  font-weight: bold;
+  margin-right: 19px;
 }
 
 .input {
@@ -842,6 +838,7 @@ background-image: url(../img/polygon.png);
 .amount-1 {
   line-height: 26px;
   font-weight: bold;
+  padding-top: 2px;
 }
 
 .amount-2 {
@@ -854,7 +851,7 @@ background-image: url(../img/polygon.png);
   position: absolute;
   fill: #a9a9a9;
   border: none;
-  left: 423px;
+  left: 421px;
   outline: 0;
 }
 
@@ -988,7 +985,7 @@ background-image: url(../img/polygon.png);
   line-height: auto;
   color: black;
   text-transform: uppercase;
-  padding-left: 4px;
+  padding-left: 6px;
   padding-bottom: 7px;
 }
 
@@ -999,7 +996,7 @@ background-image: url(../img/polygon.png);
   line-height: auto;
   color: black;
   text-transform: uppercase;
-  padding-left: 4px;
+  padding-left: 6px;
 }
 
 .input-2::-moz-placeholder {
@@ -1040,8 +1037,8 @@ background-image: url(../img/polygon.png);
   line-height: auto;
   color: black;
   text-transform: uppercase;
-  padding-left: 4px;
-  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-bottom: 9px;
 }
 
 .input-1:focus::-webkit-input-placeholder {
@@ -1160,7 +1157,7 @@ background-image: url(../img/polygon.png);
 
 .form-discribe {
   min-height: 151px;
-  margin-top: 43px;
+  margin-top: 49px;
 }
 
 .form h3 {
@@ -1168,7 +1165,7 @@ background-image: url(../img/polygon.png);
   font-size: 30px;
   line-height: 36px;
   margin: 0;
-  padding-top: 5px;
+  padding-top: 2px;
 }
 
 .form p {
@@ -1176,10 +1173,10 @@ background-image: url(../img/polygon.png);
   font-size: 14px;
   line-height: 24px;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 23px;
 }
 
-.search-form input {
+.search-form .input-1 {
   font: inherit;
   border: none;
   background-color: #f2f2f2;
@@ -1188,11 +1185,29 @@ background-image: url(../img/polygon.png);
   position: relative;
   display: block;
   margin: 0;
-  width: 343px;
-  padding: 4px;
+  width: 344px;
+  padding: 5px;
   margin-top: -7px;
   padding-top: 7px;
   outline: none;
+}
+
+.search-form .input-2{
+  font: inherit;
+  border: none;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  margin-left: 24px;
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 344px;
+  padding: 5px;
+  margin-top: -6px;
+  padding-top: 5px;
+  outline: none;
+  border: none;
+
 }
 
 .search-form-amount input {
@@ -1203,7 +1218,8 @@ background-image: url(../img/polygon.png);
 }
 
 .search-form input:focus {
-  background-color: #ffffff
+  background-color: #ffffff;
+  outline: 2px solid #e5e5e5;
 }
 
 .search-form input:hover {
@@ -1219,8 +1235,8 @@ background-image: url(../img/polygon.png);
   font-size: 21px;
   font-weight: bold;
   display: inline-block;
-  padding: 15px 121px;
-  margin-top: 54px;
+  padding: 16px 132px;
+  margin-top: 53px;
   margin-right: 55px;
 }
 
@@ -1252,6 +1268,7 @@ background-image: url(../img/polygon.png);
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 26px;
+  padding-left: 3px;
 }
 
 .filter fieldset {
@@ -1263,6 +1280,15 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   font-weight: normal;
   /*(временно)*/
+}
+
+.label-infro{
+  padding-left: 4px;
+
+}
+
+.label-type{
+padding-left: 5px;
 }
 
 .sorting h2 {
@@ -1311,17 +1337,16 @@ background-image: url(../img/polygon.png);
 
 .checkbox-form-infrastructure {
   list-style: none;
-  padding-left: 17px;
-  padding-left: 35px;
+  padding-left: 32px;
   padding-top: 7px;
   margin-top: 18px;
 }
 
 .checkbox-form-type {
   list-style: none;
-  padding-left: 37px;
+  padding-left: 35px;
   padding-top: 7px;
-  margin-top: 18px;
+  margin-top: 19px;
 }
 
 .type-list {
@@ -1366,10 +1391,10 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   font-weight: bold;
   display: block;
-  width: 107px;
+  width: 108px;
   text-align: center;
-  padding-bottom: 2px;
-  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-top: 3px;
   margin-top: 15px;
 }
 
@@ -1387,11 +1412,11 @@ background-image: url(../img/polygon.png);
   color: white;
   line-height: 21px;
   font-weight: bold;
-  width: 142px;
+  width: 143px;
   display: block;
   text-align: center;
-  padding-bottom: 2px;
-  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-top: 3px;
   margin-top: 15px;
 }
 
@@ -1422,7 +1447,7 @@ background-image: url(../img/polygon.png);
   font-weight: bold;
   color: #000000;
   display: block;
-  padding-left: 125px;
+  padding-left: 128px;
 }
 
 .social-list {
@@ -1489,8 +1514,8 @@ background-image: url(../img/polygon.png);
   width: 330px;
   color: #ffffff;
   text-transform: uppercase;
-  margin-left: 226px;
-  margin-top: 26px;
+  margin-left: 230px;
+  margin-top: 27px;
 }
 
 .filter-range-title {
@@ -1535,7 +1560,7 @@ background-image: url(../img/polygon.png);
 .price-controls .min-price,
 .price-controls .max-price {
   width: 148px;
-  padding-left: 63px;
+  padding-left: 65px;
 }
 
 .price-controls input {
@@ -1565,9 +1590,9 @@ background-image: url(../img/polygon.png);
 
 .range-toggle {
   position: absolute;
-  top: -9px;
-  width: 4px;
-  height: 4px;
+  top: -8px;
+  width: 20px;
+  height: 20px;
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -1577,15 +1602,17 @@ background-image: url(../img/polygon.png);
 }
 
 .range-toggle:hover {
-  background: #1c4f80;
+  background: #ababab;
+  transform: scale(1.2,1.2);
+
 }
 
 .range-toggle-min {
-  left: 0;
+  left: 2px;
 }
 
 .range-toggle-max {
-  left: 80%;
+  left: 77%;
 }
 
 .btn-transparent {
@@ -1605,7 +1632,4 @@ background-image: url(../img/polygon.png);
 .btn-transparent:hover {
   color: #000000;
   background: #ffffff;
-}
-.range-toggle:hover{
-transform: scale(2,2);
 }
