@@ -1,4 +1,3 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
 html {
   -webkit-box-sizing: border-box;
@@ -33,11 +32,6 @@ body {
   background-position: absolute; */
 }
 
-
-
-.hidden:not(:active) {
-  display: none;
-}
 
 a {
   text-decoration: none;
@@ -267,6 +261,7 @@ transform: translateX(-50%);
 
 .form {
   margin-top: 0;
+  position: relative;
 }
 
 .search-form {
@@ -399,6 +394,14 @@ transform: translateX(-50%);
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.iframe{
+  width: 1200px;
+  height: 593px;
+  position: absolute;
+  bottom: -121px;
 }
 
 .sorting h2 {
@@ -429,6 +432,7 @@ transform: translateX(-50%);
   display: -ms-flexbox;
   display: flex;
   min-height: 151px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .housename {
@@ -511,6 +515,8 @@ transform: translateX(-50%);
   -ms-flex-align: center;
   min-height: 122px;
   padding-top: 31px;
+  background-color: rgba(247, 247, 247, 0.77);
+  position: relative;
 }
 
 .hashtag {
@@ -604,7 +610,9 @@ color: #766357;
   color: #766357;
 }
 */
-
+.hidden:not(:active) {
+  display: none;
+}
 
 /*Первая страница*/
 
@@ -657,9 +665,9 @@ background-image: url(../img/polygon.png);
   font-size: 21px;
   font-weight: bold;
   line-height: 21px;
-  width: 160px;
+  width: 159px;
   margin-left: 120px;
-  margin-top: 0px;
+  margin-top: 2px;
   margin-bottom: 21px;
 }
 
@@ -692,7 +700,7 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   width: 325px;
   padding-left: 74px;
-  margin-top: 22px;
+  margin-top: 19px;
 }
 
 .advantages-description .num4 {
@@ -700,7 +708,7 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   width: 338px;
   padding-left: 61px;
-  margin-top: 22px;
+  margin-top: 19px;
 }
 
 .advantages-description .num5 {
@@ -708,7 +716,7 @@ background-image: url(../img/polygon.png);
   line-height: 21px;
   width: 252px;
   margin-left: 74px;
-  padding-top: 9px;
+  padding-top: 6px;
 }
 
 .advantages-image {
@@ -719,6 +727,7 @@ background-image: url(../img/polygon.png);
 
 .advantages-gray .advantages-description {
   background-color: #eeeeee;
+  min-height: 238px;
 }
 
 .reasons-description h4 {
@@ -773,6 +782,7 @@ background-image: url(../img/polygon.png);
   outline: none;
   padding-top: 33px;
   padding-bottom: 30px;
+  border:none;
 }
 
 .big-button-container {
@@ -792,8 +802,9 @@ background-image: url(../img/polygon.png);
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url(../img/map.jpg);
   min-height: 474px;
+  position: relative;
+  z-index: 1;
 }
 
 .search-form-container {
@@ -809,7 +820,7 @@ background-image: url(../img/polygon.png);
   background-color: white;
   margin-bottom: auto;
   padding-left: 56px;
-  padding-top: 59px;
+  padding-top: 63px;
 }
 
 .date-1 {
@@ -853,6 +864,7 @@ background-image: url(../img/polygon.png);
   border: none;
   left: 421px;
   outline: 0;
+  background: none;
 }
 
 .search-from-calendar svg:hover,
@@ -884,7 +896,7 @@ background-image: url(../img/polygon.png);
   height: 11px;
   background-color: #a9a9a9;
   top: 15px;
-  right: 18px;
+  right: 17px;
 }
 
 .plus-btn::before {
@@ -1157,7 +1169,7 @@ background-image: url(../img/polygon.png);
 
 .form-discribe {
   min-height: 151px;
-  margin-top: 49px;
+  margin-top: 51px;
 }
 
 .form h3 {
@@ -1249,6 +1261,10 @@ background-image: url(../img/polygon.png);
   color: #93b9d2
 }
 
+.map{
+position: absolute;
+top: 240px;
+}
 
 /*Вторая страница*/
 
@@ -1296,6 +1312,7 @@ padding-left: 5px;
   line-height: 26px;
   font-weight: bold;
   padding-top: 10px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .sorting p {
@@ -1318,11 +1335,10 @@ padding-left: 5px;
 }
 
 .up svg:hover,
-.up svg:focus,
-.down svg:hover,
-.down svg:focus {
+.up svg:focus{ 
   fill: black;
 }
+
 
 .up svg:active,
 .down svg:active {
@@ -1332,8 +1348,6 @@ padding-left: 5px;
 .up {
   padding-right: 12px;
 }
-
-.down {}
 
 .checkbox-form-infrastructure {
   list-style: none;
@@ -1552,9 +1566,9 @@ padding-left: 5px;
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 33px;
   vertical-align: top;
   cursor: pointer;
+  padding-top: 
 }
 
 .price-controls .min-price,
