@@ -660,7 +660,7 @@ transform: translateX(-50%);
 	font-size: 14px;
 	color: #333333;
 	margin-top: 0;
-	padding-top: 9px;
+	padding-top: 11px;
 	padding-right: 5px;
 }
 
@@ -677,6 +677,11 @@ transform: translateX(-50%);
 	margin-left: 120px;
 	margin-top: 2px;
 	margin-bottom: 21px;
+}
+
+.advantages-description .num1
+{color: #ffffff;
+
 }
 
 .advantages-description span {
@@ -883,6 +888,7 @@ transform: translateX(-50%);
 	left: 421px;
 	outline: 0;
 	background: none;
+	top: -1px;
 }
 
 .search-from-calendar:hover svg,
