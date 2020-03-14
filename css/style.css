@@ -157,8 +157,8 @@ transform: translateX(-50%);
 .for-type a,
 .for-rating a {
 	color: #000000;
-    border-bottom: 1px dotted #81b3d2;
-    opacity: 30%;
+	border-bottom: 1px dotted #81b3d2;
+	opacity: 30%;
 }
 
 .for-type a:focus,
@@ -685,7 +685,7 @@ transform: translateX(-50%);
 }
 
 .advantages-description .white {
- color: #ffffff;
+	color: #ffffff;
 }
 
 .advantages-description .num2 {
@@ -1474,7 +1474,7 @@ transform: translateX(-50%);
 	margin-left: 30px;
 	margin-top: 46px;
 	line-height: 21px;
-    padding-top: 4px;
+	padding-top: 4px;
 }
 
 
@@ -1618,7 +1618,7 @@ transform: translateX(-50%);
 	width: 148px;
 	padding-left: 65px;
 	line-height: 21px;
-    padding-top: 3px;
+	padding-top: 3px;
 }
 
 .price-controls input {
