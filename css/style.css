@@ -14,21 +14,15 @@ body {
 	/*Временно для сетки*/
 	margin: 0;
 	padding: 0;
-	font-family: "PT Sans", Arial, sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 400;
 	color: #000000;
 	text-transform: uppercase;
 	background-color: #ffffff;
-	/*background-image: url("../img/back.jpg");*/
 	background-position: top;
 	background-repeat: no-repeat;
-	/*
-  background-image: url("../img/sedona-index.jpg");
-  background-size: : 1372px auto;
-  background-repeat: no-repeat;
-  background-position: absolute; */
 }
 
 a {
@@ -53,7 +47,7 @@ img {
 }
 
 .banner {
-	background: url(../img/banner.jpg);
+	background: url("../img/banner.jpg");
 	min-height: 509px;
 	background-repeat: no-repeat;
 	border: none;
@@ -162,8 +156,9 @@ transform: translateX(-50%);
 
 .for-type a,
 .for-rating a {
-	color: #c9c9c9;
-	border-bottom: 1px dotted #81b3d2;
+	color: #000000;
+    border-bottom: 1px dotted #81b3d2;
+    opacity: 30%;
 }
 
 .for-type a:focus,
@@ -172,11 +167,13 @@ transform: translateX(-50%);
 .for-rating a:hover {
 	color: #81b3d2;
 	border-bottom: 1px dotted #81b3d2;
+	opacity: 100%;
 }
 
 .for-type a:active,
 .for-rating a:active {
 	color: #000000;
+	opacity: 100%;
 }
 
 .for-prise a {
@@ -268,9 +265,6 @@ transform: translateX(-50%);
 }
 
 .search-form {
-	/*background-image: url("../img/map.jpg");
-  width: 1200px;
-  height: 473px;*/
 	padding-bottom: 37px;
 	position: relative;
 	display: -webkit-box;
@@ -291,7 +285,7 @@ transform: translateX(-50%);
 	margin: 0;
 	padding: 0;
 	background-color: #c9c9c9;
-	background: url(../img/filter-background.jpg);
+	background: url("../img/filter-background.jpg");
 	background-position-x: -1px;
 	background-position-y: -55px;
 }
@@ -339,7 +333,7 @@ transform: translateX(-50%);
 	display: block;
 	position: absolute;
 	background: url("../svg/checkbox-off.svg");
-	content: "";
+	content:"" ;
 	left: -36px;
 	top: 50%;
 	width: 25px;
@@ -349,7 +343,7 @@ transform: translateX(-50%);
 }
 
 .filter-input-checkbox:checked+label:after {
-	content: "";
+	content:"" ;
 	position: absolute;
 	background: url("../svg/checkbox-on.svg");
 	left: -36px;
@@ -406,6 +400,10 @@ transform: translateX(-50%);
 	position: absolute;
 	bottom: -121px;
 	background-color: #c9c9c9;
+}
+
+.iframe iframe {
+	border: none;
 }
 
 .sorting h2 {
@@ -635,9 +633,6 @@ transform: translateX(-50%);
 }
 
 
-/*.banner{
-background-image: url(../img/polygon.png);
-}*/
 
 .banner {
 	background-repeat: no-repeat;
@@ -686,6 +681,11 @@ background-image: url(../img/polygon.png);
 	line-height: 21px;
 	padding-top: 5px;
 	display: block;
+	color: #333333;
+}
+
+.advantages-description .white {
+ color: #ffffff;
 }
 
 .advantages-description .num2 {
@@ -711,6 +711,7 @@ background-image: url(../img/polygon.png);
 	width: 325px;
 	padding-left: 74px;
 	margin-top: 19px;
+	color:#333333;
 }
 
 .advantages-description .num4 {
@@ -719,6 +720,7 @@ background-image: url(../img/polygon.png);
 	width: 338px;
 	padding-left: 61px;
 	margin-top: 19px;
+	color: #333333;
 }
 
 .advantages-description .num5 {
@@ -727,6 +729,7 @@ background-image: url(../img/polygon.png);
 	width: 252px;
 	margin-left: 74px;
 	padding-top: 6px;
+	color: #333333;
 }
 
 .advantages-image {
@@ -756,6 +759,7 @@ background-image: url(../img/polygon.png);
 	padding-top: 28px;
 	padding-left: 38px;
 	width: 362px;
+	color: #333333;
 }
 
 .reasons-description .house {
@@ -766,6 +770,7 @@ background-image: url(../img/polygon.png);
 	padding-top: 28px;
 	padding-left: 50px;
 	width: 346px;
+	color: #333333;
 }
 
 .reasons-description .food {
@@ -776,6 +781,7 @@ background-image: url(../img/polygon.png);
 	padding-top: 28px;
 	padding-left: 56px;
 	width: 341px;
+	color: #333333;
 }
 
 .sedona-search {
@@ -809,10 +815,6 @@ background-image: url(../img/polygon.png);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	width: 100%;
-	/*-webkit-box-pack: center;*/
-	/*-ms-flex-pack: center;*/
-	/*justify-content: center;*/
 	min-height: 480px;
 	position: relative;
 	z-index: 1;
@@ -905,7 +907,7 @@ background-image: url(../img/polygon.png);
 .plus-btn::before,
 .plus-btn::after {
 	position: absolute;
-	content: "";
+	content:"";
 	width: 3px;
 	height: 11px;
 	background-color: #a9a9a9;
@@ -930,7 +932,7 @@ background-image: url(../img/polygon.png);
 
 .min-btn::after {
 	position: absolute;
-	content: "";
+	content:"";
 	width: 3px;
 	height: 11px;
 	background-color: #a9a9a9;
@@ -1207,6 +1209,7 @@ background-image: url(../img/polygon.png);
 	line-height: 24px;
 	margin: 0;
 	padding-top: 23px;
+	color: #333333;
 }
 
 .search-form .input-1 {
@@ -1318,7 +1321,7 @@ background-image: url(../img/polygon.png);
 	color: #ffffff;
 	line-height: 21px;
 	font-weight: normal;
-	/*(временно)*/
+	
 }
 
 .label-infro {
@@ -1334,7 +1337,6 @@ background-image: url(../img/polygon.png);
 	line-height: 26px;
 	font-weight: bold;
 	padding-top: 10px;
-	border-bottom: 1px solid #e5e5e5;
 }
 
 .sorting p {
@@ -1471,6 +1473,8 @@ background-image: url(../img/polygon.png);
 	text-align: center;
 	margin-left: 30px;
 	margin-top: 46px;
+	line-height: 21px;
+    padding-top: 4px;
 }
 
 
@@ -1589,7 +1593,7 @@ background-image: url(../img/polygon.png);
 }
 
 .price-controls::after {
-	content: "";
+	content:"";
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -1613,6 +1617,8 @@ background-image: url(../img/polygon.png);
 .price-controls .max-price {
 	width: 148px;
 	padding-left: 65px;
+	line-height: 21px;
+    padding-top: 3px;
 }
 
 .price-controls input {
@@ -1668,9 +1674,9 @@ background-image: url(../img/polygon.png);
 
 .btn-transparent {
 	display: block;
-	padding: 7px 31px;
+	padding: 5px 34px;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 21px;
 	color: #ffffff;
 	text-transform: uppercase;
 	background: transparent;
