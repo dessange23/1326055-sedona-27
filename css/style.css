@@ -400,6 +400,8 @@ transform: translateX(-50%);
 	position: absolute;
 	bottom: -121px;
 	background-color: #c9c9c9;
+	z-index: 2;
+	background: url("../img/map.jpg");
 }
 
 .iframe iframe {
@@ -523,6 +525,7 @@ transform: translateX(-50%);
 	padding-top: 26px;
 	background-color: rgba(247, 247, 247, 0.77);
 	position: relative;
+	z-index: 4;
 }
 
 .hashtag {
@@ -817,7 +820,7 @@ transform: translateX(-50%);
 	display: flex;
 	min-height: 480px;
 	position: relative;
-	z-index: 1;
+	z-index: 3;
 	margin-left: 317px;
 }
 
@@ -1289,6 +1292,7 @@ transform: translateX(-50%);
 .map {
 	position: absolute;
 	top: 240px;
+	z-index: 1;
 }
 
 
