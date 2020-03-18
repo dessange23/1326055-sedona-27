@@ -1719,7 +1719,7 @@ transform: translateX(-50%);
 
 .range-controls {
 	position: relative;
-	margin-bottom: 32px;
+	margin-bottom: 31px;
 }
 
 .range-controls .scale {
