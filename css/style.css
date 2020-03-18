@@ -51,7 +51,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	height: 509px;
-	background-image: url(../img/polygon.jpg);
+	background-image: url("../img/polygon.jpg");
 	background-color: #23313a;
 	background-repeat: no-repeat;
 	background-position: bottom, 0px -57px;
@@ -61,7 +61,7 @@ img {
 /*СЕТКИ 1 СТРАНИЦА*/
 
 .header {
-	margin-bottom: -2px;
+	margin-bottom: -0px;
 }
 
 .main-navigation {
@@ -416,7 +416,7 @@ transform: translateX(-50%);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	min-height: 85px;
+	min-height: 86px;
 	-webkit-box-align: baseline;
 	-ms-flex-align: baseline;
 	align-items: baseline;
@@ -555,6 +555,7 @@ transform: translateX(-50%);
 	background-color: rgba(247, 247, 247, 0.77);
 	position: relative;
 	z-index: 4;
+	margin-top: -4px;
 }
 
 .hashtag {
@@ -587,12 +588,12 @@ transform: translateX(-50%);
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	margin-top: -9px;
+	margin-top: -5px;
 }
 
 .footer-logo {
 	width: 400px;
-	margin-top: 9px;
+	margin-top: 12px;
 }
 
 .website {
@@ -707,7 +708,7 @@ transform: translateX(-50%);
 	width: 159px;
 	margin-left: 120px;
 	margin-top: 2px;
-	margin-bottom: 20px;
+	margin-bottom: 17px;
 }
 
 .advantages-description .num1
@@ -718,7 +719,7 @@ transform: translateX(-50%);
 .advantages-description span {
 	font-size: 14px;
 	line-height: 21px;
-	padding-top: 3px;
+	padding-top: 5px;
 	display: block;
 	color: #333333;
 }
@@ -741,7 +742,7 @@ transform: translateX(-50%);
 	width: 345px;
 	padding-left: 52px;
 	margin-top: 13px;
-	padding-top: 6px;
+	padding-top: 7px;
 }
 
 .advantages-description .num3 {
@@ -878,7 +879,8 @@ transform: translateX(-50%);
 	animation-fill-mode: forwards;
 }
 
-input:invalid{
+.input-1:invalid,
+.input-2:invalid{
 	animation: shake 1s ease;
 	animation-fill-mode: forwards;
 }
@@ -1178,7 +1180,8 @@ input:invalid{
 	display: -ms-flexbox;
 	display: flex;
 	margin-right: 0px;
-	margin-left: 26px;
+	margin-left: 28px;
+	margin-top: 3px;
 }
 
 .input {
@@ -1197,6 +1200,8 @@ input:invalid{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	padding-top: 2px;
+	margin-left: -1px;
 }
 
 .adult {
@@ -1255,7 +1260,7 @@ input:invalid{
 
 .form-discribe {
 	min-height: 151px;
-	margin-top: 54px;
+	margin-top: 52px;
 }
 
 .form h3 {
@@ -1562,6 +1567,7 @@ input:invalid{
 
 .catalog-footer {
 	background-color: white;
+	margin-top: -2px;
 }
 
 .hashtag a {
@@ -1571,6 +1577,7 @@ input:invalid{
 	color: #000000;
 	display: block;
 	padding-left: 124px;
+	padding-top: 2px;
 }
 
 .hashtag-catalog a {
@@ -1640,7 +1647,7 @@ input:invalid{
 }
 
 .hashtag .phone {
-	padding-top: 7px;
+	padding-top: 9px;
 }
 
 
@@ -1755,7 +1762,7 @@ input:invalid{
 
 .btn-transparent {
 	display: block;
-	padding: 5px 34px;
+	padding: 5px 30px;
 	font-size: 14px;
 	line-height: 21px;
 	color: #ffffff;
