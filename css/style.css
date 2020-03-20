@@ -879,12 +879,6 @@ transform: translateX(-50%);
 	animation-fill-mode: forwards;
 }
 
-.input-1:invalid,
-.input-2:invalid{
-	animation: shake 1s ease;
-	animation-fill-mode: forwards;
-}
-
 .date-1 {
 	line-height: 26px;
 	font-weight: bold;
