@@ -305,9 +305,16 @@ transform: translateX(-50%);
 	top: 50%;
 	margin-top: -7px;
 	cursor: pointer;
-	z-index: 10;
+	z-index: -10;
 	opacity: 0;
 }
+
+.filter-input-checkbox:active + .label-infro,
+.filter-input-checkbox:focus + .label-infro,
+.filter-input-checkbox:focus + .label-type,
+.filter-input-checkbox:active + .label-type {
+	opacity: 30%;
+} 
 
 .input {
 	margin-bottom: 22px;
@@ -637,7 +644,8 @@ transform: translateX(-50%);
 }
 
 .site-navigation a:active {
-	color: #b2b2b2
+	color: #000000;
+	opacity: 30%;
 }
 
 
@@ -875,8 +883,6 @@ transform: translateX(-50%);
 	margin-bottom: auto;
 	padding-left: 56px;
 	padding-top: 63px;
-	animation: slide-down 0.5s ease-in-out;
-	animation-fill-mode: forwards;
 }
 
 .date-1 {
@@ -1744,7 +1750,18 @@ transform: translateX(-50%);
 .range-toggle:hover {
 	background: #ababab;
 	transform: scale(1.2, 1.2);
+	outline: none;
 }
+
+.range-toggle:active,
+.range-toggle:focus {
+	background: #ababab;
+	transform: scale(1.2, 1.2);
+	outline: none;
+}
+
+
+
 
 .range-toggle-min {
 	left: 2px;
@@ -1804,4 +1821,35 @@ transform: translateX(-50%);
 	20%, 40%, 60%, 80% {
 		transform: translateX(10px);
 	}
+}
+
+.slide-down {
+	animation: slide-down 0.5s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.slide-up {
+	animation: slide-up 0.5s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.shake {
+	animation: shake 0.5s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.label-infro:focus {
+	opacity: 30%;
+}
+
+.label-type:focus {
+	opacity: 30%;
+}
+
+.label-infro:active {
+	opacity: 30%;
+}
+
+.label-type:active {
+	opacity: 30%;
 }

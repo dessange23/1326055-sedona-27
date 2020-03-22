@@ -6,18 +6,18 @@ const submitBtn = document.querySelector('.found-sedona-hotels');
 const inputAdult = document.querySelector('.adult');
 const inputChild = document.querySelector('.child');
 
-searchBtn.addEventListener('click', () => {
+searchBtn.addEventListener('click', function slideDown() {
+	searchForm.classList.remove('shake');	
 	searchForm.classList.toggle('hidden');
+	searchForm.classList.add('slide-down');
 });
 
-submitBtn.addEventListener('click', (e) =>  {	
+submitBtn.addEventListener('click', function shake(e)  {
    if (inputIn.value === '' || inputOut.value === '' || (inputAdult.value === '' && inputChild.value === '')) {
 	  e.preventDefault();
-	  searchForm.style.animation = 'shake 1s ease';
-	  searchForm.style.animationFillMode = 'forwards';
-	  setTimeout(() => {
-		searchForm.style.animation = '';
-		searchForm.style.animationFillMode = '';
-	   }, 1000);
+	  searchForm.classList.remove('shake');
+	  searchForm.offsetWidth = searchForm.offsetWidth;
+	  searchForm.classList.remove('slide-down');
+	  searchForm.classList.add('shake');
    }
 });
